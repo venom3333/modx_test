@@ -2,23 +2,6 @@
   'config' => 
   array (
   ),
-  'aliasMap' => 
-  array (
-    'index.html' => 1,
-    '404.html' => 2,
-    'sitemap.xml' => 3,
-    'robots.txt' => 4,
-    'kategorii-produktov/' => 6,
-    'realizovannyie-proektyi/' => 15,
-    'o-kompanii.html' => 16,
-    'dizajneram-arxitektoram.html' => 17,
-    'kontaktyi.html' => 18,
-    'kategorii-produktov/kolczevyie/' => 7,
-    'kategorii-produktov/svetovyie-installyaczii/' => 8,
-    'kategorii-produktov/pryamougolnyie/' => 9,
-    'kategorii-produktov/xaj-tek/' => 10,
-    'kategorii-produktov/kolczevyie/probnyij-tovar.html' => 19,
-  ),
   'resourceMap' => 
   array (
     0 => 

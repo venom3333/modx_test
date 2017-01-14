@@ -92,7 +92,7 @@
   'friendly_alias_trim_chars' => '/.-_',
   'friendly_alias_word_delimiter' => '-',
   'friendly_alias_word_delimiters' => '-_',
-  'friendly_urls' => '1',
+  'friendly_urls' => '0',
   'friendly_urls_strict' => '1',
   'use_frozen_parent_uris' => '0',
   'global_duplicate_uri_check' => '1',

@@ -4,9 +4,6 @@
     'allow_tags_in_post' => '1',
     'modRequest.class' => 'modManagerRequest',
   ),
-  'aliasMap' => 
-  array (
-  ),
   'webLinkMap' => 
   array (
   ),
