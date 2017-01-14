@@ -38,27 +38,27 @@ $https_port = '443';
 $uuid = 'edfc2135-05f3-426e-ad63-9fe669cd71fd';
 
 if (!defined('MODX_CORE_PATH')) {
-    $modx_core_path= 'D:/domens/localhost/modx.test/core/';
+	$modx_core_path= "{$_SERVER ['DOCUMENT_ROOT']}/core/";
     define('MODX_CORE_PATH', $modx_core_path);
 }
 if (!defined('MODX_PROCESSORS_PATH')) {
-    $modx_processors_path= 'D:/domens/localhost/modx.test/core/model/modx/processors/';
+    $modx_processors_path= "{$_SERVER ['DOCUMENT_ROOT']}/core/model/modx/processors/";
     define('MODX_PROCESSORS_PATH', $modx_processors_path);
 }
 if (!defined('MODX_CONNECTORS_PATH')) {
-    $modx_connectors_path= 'D:/domens/localhost/modx.test/connectors/';
+    $modx_connectors_path= "{$_SERVER ['DOCUMENT_ROOT']}/connectors/";
     $modx_connectors_url= '/connectors/';
     define('MODX_CONNECTORS_PATH', $modx_connectors_path);
     define('MODX_CONNECTORS_URL', $modx_connectors_url);
 }
 if (!defined('MODX_MANAGER_PATH')) {
-    $modx_manager_path= 'D:/domens/localhost/modx.test/boss/';
+    $modx_manager_path= "{$_SERVER ['DOCUMENT_ROOT']}/boss/";
     $modx_manager_url= '/boss/';
     define('MODX_MANAGER_PATH', $modx_manager_path);
     define('MODX_MANAGER_URL', $modx_manager_url);
 }
 if (!defined('MODX_BASE_PATH')) {
-    $modx_base_path= 'D:/domens/localhost/modx.test/';
+    $modx_base_path= "{$_SERVER ['DOCUMENT_ROOT']}";
     $modx_base_url= '/';
     define('MODX_BASE_PATH', $modx_base_path);
     define('MODX_BASE_URL', $modx_base_url);
@@ -90,7 +90,7 @@ if (!defined('MODX_SITE_URL')) {
     define('MODX_SITE_URL', $site_url);
 }
 if (!defined('MODX_ASSETS_PATH')) {
-    $modx_assets_path= 'D:/domens/localhost/modx.test/assets/';
+    $modx_assets_path= "{$_SERVER ['DOCUMENT_ROOT']}/assets/";
     $modx_assets_url= '/assets/';
     define('MODX_ASSETS_PATH', $modx_assets_path);
     define('MODX_ASSETS_URL', $modx_assets_url);
