@@ -2,18 +2,33 @@
 /**
  *  MODX Configuration file
  */
-$database_type = 'mysql';
-$database_server = '127.0.0.1';
-$database_user = 'venom';
-$database_password = '666666';
-$database_connection_charset = 'utf8';
-$dbase = 'modx_test';
-$table_prefix = 'modx_';
-$database_dsn = 'mysql:host=127.0.0.1;dbname=modx_test;charset=utf8';
-$config_options = array (
-);
-$driver_options = array (
-);
+ if ( stristr( $_SERVER ['DOCUMENT_ROOT'], 'localhost' ) ) {
+	$database_type = 'mysql';
+	$database_server = '127.0.0.1';
+	$database_user = 'venom';
+	$database_password = '666666';
+	$database_connection_charset = 'utf8';
+	$dbase = 'modx_test';
+	$table_prefix = 'modx_';
+	$database_dsn = 'mysql:host=127.0.0.1;dbname=modx_test;charset=utf8';
+	$config_options = array (
+	);
+	$driver_options = array (
+	);
+ } else {
+	$database_type = 'mysql';
+	$database_server = 'mysql.hostinger.ru';
+	$database_user = 'u383196252_admin';
+	$database_password = '666666';
+	$database_connection_charset = 'utf8';
+	$dbase = 'u383196252_test';
+	$table_prefix = 'modx_';
+	$database_dsn = 'mysql:host=mysql.hostinger.ru;dbname=u383196252_test;charset=utf8';
+	$config_options = array (
+	);
+	$driver_options = array (
+	);
+ }
 
 $lastInstallTime = 1484214078;
 

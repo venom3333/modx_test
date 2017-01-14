@@ -218,6 +218,26 @@
     array (
       0 => 
       array (
+        'text' => 'Установщик',
+        'parent' => 'components',
+        'action' => 'workspaces',
+        'description' => 'Управление приложениями и репозиториями',
+        'icon' => '',
+        'menuindex' => 0,
+        'params' => '',
+        'handler' => '',
+        'permissions' => 'packages',
+        'namespace' => 'core',
+        'action_controller' => NULL,
+        'action_namespace' => NULL,
+        'id' => 'installer',
+        'children' => 
+        array (
+        ),
+        'controller' => '',
+      ),
+      1 => 
+      array (
         'text' => 'Виды Коллекции',
         'parent' => 'components',
         'action' => '1',
@@ -236,7 +256,7 @@
         ),
         'controller' => '',
       ),
-      1 => 
+      2 => 
       array (
         'text' => 'FormIt',
         'parent' => 'components',
@@ -251,26 +271,6 @@
         'action_controller' => 'index',
         'action_namespace' => 'formit',
         'id' => 'formit',
-        'children' => 
-        array (
-        ),
-        'controller' => '',
-      ),
-      2 => 
-      array (
-        'text' => 'Установщик',
-        'parent' => 'components',
-        'action' => 'workspaces',
-        'description' => 'Управление приложениями и репозиториями',
-        'icon' => '',
-        'menuindex' => 0,
-        'params' => '',
-        'handler' => '',
-        'permissions' => 'packages',
-        'namespace' => 'core',
-        'action_controller' => NULL,
-        'action_namespace' => NULL,
-        'id' => 'installer',
         'children' => 
         array (
         ),
@@ -293,6 +293,66 @@
         'id' => 'migx',
         'children' => 
         array (
+        ),
+        'controller' => '',
+      ),
+      4 => 
+      array (
+        'text' => 'miniShop2',
+        'parent' => 'components',
+        'action' => '4',
+        'description' => 'Продвинутый интернет-магазин',
+        'icon' => '<i class="icon-shopping-cart icon icon-large"></i>',
+        'menuindex' => 0,
+        'params' => '',
+        'handler' => '',
+        'permissions' => '',
+        'namespace' => 'minishop2',
+        'action_controller' => 'index',
+        'action_namespace' => 'minishop2',
+        'id' => 'minishop2',
+        'children' => 
+        array (
+          0 => 
+          array (
+            'text' => 'Заказы',
+            'parent' => 'minishop2',
+            'action' => '5',
+            'description' => 'Управление заказами',
+            'icon' => '',
+            'menuindex' => 0,
+            'params' => '',
+            'handler' => '',
+            'permissions' => '',
+            'namespace' => 'minishop2',
+            'action_controller' => 'controllers/mgr/orders',
+            'action_namespace' => 'minishop2',
+            'id' => 'ms2_orders',
+            'children' => 
+            array (
+            ),
+            'controller' => '',
+          ),
+          1 => 
+          array (
+            'text' => 'Настройки',
+            'parent' => 'minishop2',
+            'action' => '6',
+            'description' => 'Статусы заказов, параметры оплаты и доставки',
+            'icon' => '',
+            'menuindex' => 1,
+            'params' => '',
+            'handler' => '',
+            'permissions' => '',
+            'namespace' => 'minishop2',
+            'action_controller' => 'controllers/mgr/settings',
+            'action_namespace' => 'minishop2',
+            'id' => 'ms2_settings',
+            'children' => 
+            array (
+            ),
+            'controller' => '',
+          ),
         ),
         'controller' => '',
       ),

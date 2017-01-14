@@ -8,6 +8,16 @@
     '404.html' => 2,
     'sitemap.xml' => 3,
     'robots.txt' => 4,
+    'kategorii-produktov/' => 6,
+    'realizovannyie-proektyi/' => 15,
+    'o-kompanii.html' => 16,
+    'dizajneram-arxitektoram.html' => 17,
+    'kontaktyi.html' => 18,
+    'kategorii-produktov/kolczevyie/' => 7,
+    'kategorii-produktov/svetovyie-installyaczii/' => 8,
+    'kategorii-produktov/pryamougolnyie/' => 9,
+    'kategorii-produktov/xaj-tek/' => 10,
+    'kategorii-produktov/kolczevyie/probnyij-tovar.html' => 19,
   ),
   'resourceMap' => 
   array (
@@ -17,6 +27,22 @@
       1 => 2,
       2 => 3,
       3 => 4,
+      4 => 6,
+      5 => 15,
+      6 => 16,
+      7 => 17,
+      8 => 18,
+    ),
+    6 => 
+    array (
+      0 => 7,
+      1 => 8,
+      2 => 9,
+      3 => 10,
+    ),
+    7 => 
+    array (
+      0 => 19,
     ),
   ),
   'webLinkMap' => 
@@ -24,6 +50,10 @@
   ),
   'eventMap' => 
   array (
+    'msOnChangeOrderStatus' => 
+    array (
+      12 => '12',
+    ),
     'OnBeforeDocFormSave' => 
     array (
       2 => '2',
@@ -38,11 +68,13 @@
     ),
     'OnChunkFormPrerender' => 
     array (
+      13 => '13',
       1 => '1',
     ),
     'OnDocFormPrerender' => 
     array (
       1 => '1',
+      13 => '13',
       3 => '3',
       2 => '2',
     ),
@@ -58,6 +90,14 @@
     array (
       1 => '1',
     ),
+    'OnHandleRequest' => 
+    array (
+      12 => '12',
+    ),
+    'OnLoadWebDocument' => 
+    array (
+      12 => '12',
+    ),
     'OnMODXInit' => 
     array (
       5 => '5',
@@ -65,6 +105,7 @@
     'OnPluginFormPrerender' => 
     array (
       1 => '1',
+      13 => '13',
     ),
     'OnResourceBeforeSort' => 
     array (
@@ -90,10 +131,12 @@
     ),
     'OnSnipFormPrerender' => 
     array (
+      13 => '13',
       1 => '1',
     ),
     'OnTempFormPrerender' => 
     array (
+      13 => '13',
       1 => '1',
     ),
     'OnTVInputPropertiesList' => 
@@ -103,6 +146,10 @@
     'OnTVInputRenderList' => 
     array (
       3 => '3',
+    ),
+    'OnWebPageInit' => 
+    array (
+      12 => '12',
     ),
   ),
   'pluginCache' => 
@@ -609,6 +656,198 @@ This option enables you to specify where the toolbar should be located. This opt
       'static' => '0',
       'static_file' => '',
     ),
+    12 => 
+    array (
+      'id' => '12',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'miniShop2',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '10',
+      'cache_type' => '0',
+      'plugincode' => 'switch ($modx->event->name) {
+
+	case \'OnManagerPageBeforeRender\':
+		$modx23 = !empty($modx->version) && version_compare($modx->version[\'full_version\'], \'2.3.0\', \'>=\');
+		$modx->controller->addHtml(\'<script type="text/javascript">
+			Ext.onReady(function() {
+				MODx.modx23 = \'.(int)$modx23.\';
+			});
+		</script>\');
+		if (!$modx23) {
+			$modx->controller->addCss(MODX_ASSETS_URL . \'components/minishop2/css/mgr/bootstrap.min.css\');
+		}
+		$modx->controller->addCss(MODX_ASSETS_URL . \'components/minishop2/css/mgr/main.css\');
+		break;
+
+	case \'OnHandleRequest\':
+	case \'OnLoadWebDocument\':
+		$isAjax = !empty($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\';
+
+		if (empty($_REQUEST[\'ms2_action\']) || ($isAjax && $modx->event->name != \'OnHandleRequest\') || (!$isAjax && $modx->event->name != \'OnLoadWebDocument\')) {return;}
+		$action = trim($_REQUEST[\'ms2_action\']);
+		$ctx = !empty($_REQUEST[\'ctx\']) ? (string) $_REQUEST[\'ctx\'] : \'web\';
+		if ($ctx != \'web\') {$modx->switchContext($ctx);}
+
+		/* @var miniShop2 $miniShop2 */
+		$miniShop2 = $modx->getService(\'minishop2\');
+		$miniShop2->initialize($ctx, array(\'json_response\' => $isAjax));
+		if (!($miniShop2 instanceof miniShop2)) {
+			@session_write_close();
+			exit(\'Could not initialize miniShop2\');
+		}
+
+		switch ($action) {
+			case \'cart/add\': $response = $miniShop2->cart->add(@$_POST[\'id\'], @$_POST[\'count\'], @$_POST[\'options\']); break;
+			case \'cart/change\': $response = $miniShop2->cart->change(@$_POST[\'key\'], @$_POST[\'count\']); break;
+			case \'cart/remove\': $response = $miniShop2->cart->remove(@$_POST[\'key\']); break;
+			case \'cart/clean\': $response = $miniShop2->cart->clean(); break;
+			case \'cart/get\': $response = $miniShop2->cart->get(); break;
+			case \'order/add\': $response = $miniShop2->order->add(@$_POST[\'key\'], @$_POST[\'value\']); break;
+			case \'order/submit\': $response = $miniShop2->order->submit($_POST); break;
+			case \'order/getcost\': $response = $miniShop2->order->getcost(); break;
+			case \'order/getrequired\': $response = $miniShop2->order->getDeliveryRequiresFields(@$_POST[\'id\']); break;
+			case \'order/clean\': $response = $miniShop2->order->clean(); break;
+			case \'order/get\': $response = $miniShop2->order->get(); break;
+			default:
+				$message = ($_REQUEST[\'ms2_action\'] != $action)
+					? \'ms2_err_register_globals\'
+					: \'ms2_err_unknown\';
+				$response = $miniShop2->error($message);
+		}
+
+		if ($isAjax) {
+			@session_write_close();
+			exit($response);
+		}
+		break;
+
+	case \'OnWebPageInit\':
+		/* @var msCustomerProfile $profile */
+		$referrerVar = $modx->getOption(\'ms2_referrer_code_var\', null, \'msfrom\', true);
+		$cookieVar = $modx->getOption(\'ms2_referrer_cookie_var\', null, \'msreferrer\', true);
+		$cookieTime = $modx->getOption(\'ms2_referrer_time\', null, 86400 * 365, true);
+
+		if (!$modx->user->isAuthenticated() && !empty($_REQUEST[$referrerVar])) {
+			$code = trim($_REQUEST[$referrerVar]);
+			if ($profile = $modx->getObject(\'msCustomerProfile\', array(\'referrer_code\' => $code))) {
+				$referrer = $profile->id;
+				setcookie($cookieVar, $referrer, time() + $cookieTime);
+			}
+		}
+		elseif ($modx->user->isAuthenticated() && !empty($_COOKIE[$cookieVar])) {
+			if ($profile = $modx->getObject(\'msCustomerProfile\', $modx->user->id)) {
+				if (!$profile->get(\'referrer_id\') && $_COOKIE[$cookieVar] != $modx->user->id) {
+					$profile->set(\'referrer_id\', $_COOKIE[$cookieVar]);
+					$profile->save();
+				}
+			}
+			setcookie($cookieVar, \'\', time() - $cookieTime);
+		}
+		break;
+
+	case \'msOnChangeOrderStatus\':
+		if (empty($status) || $status != 2) {return;}
+
+		/** @var modUser $user */
+		if ($user = $order->getOne(\'User\')) {
+			$q = $modx->newQuery(\'msOrder\', array(\'type\' => 0));
+			$q->innerJoin(\'modUser\', \'modUser\', array(\'`modUser`.`id` = `msOrder`.`user_id`\'));
+			$q->innerJoin(\'msOrderLog\', \'msOrderLog\', array(
+				\'`msOrderLog`.`order_id` = `msOrder`.`id`\',
+				\'msOrderLog.action\' => \'status\',
+				\'msOrderLog.entry\' => $status,
+			));
+			$q->where(array(\'msOrder.user_id\' => $user->id));
+			$q->groupby(\'msOrder.user_id\');
+			$q->select(\'SUM(`msOrder`.`cost`)\');
+			if ($q->prepare() && $q->stmt->execute()) {
+				$spent = $q->stmt->fetch(PDO::FETCH_COLUMN);
+				/** @var msCustomerProfile $profile */
+				if ($profile = $modx->getObject(\'msCustomerProfile\', $user->id)) {
+					$profile->set(\'spent\', $spent);
+					$profile->save();
+				}
+			}
+		}
+		break;
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'core/components/minishop2/elements/plugins/plugin.minishop2.php',
+    ),
+    13 => 
+    array (
+      'id' => '13',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'tagElementPlugin',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '12',
+      'cache_type' => '0',
+      'plugincode' => 'switch ($modx->event->name) {
+    case \'OnDocFormPrerender\':
+        $field = \'modx-snippet-snippet\';
+        $panel = \'\';
+        break;
+    case \'OnTempFormPrerender\':
+        $field = \'modx-template-content\';
+        $panel = \'modx-panel-template\';
+        break;
+    case \'OnChunkFormPrerender\':
+        $field = \'modx-chunk-snippet\';
+        $panel = \'modx-panel-chunk\';
+        break;
+    case \'OnSnipFormPrerender\':
+        $field = \'modx-snippet-snippet\';
+        $panel = \'modx-panel-snippet\';
+        break;
+    case \'OnPluginFormPrerender\':
+        $field = \'modx-plugin-plugincode\';
+        $panel = \'modx-panel-plugin\';
+        break;
+    default:
+        return;
+}
+if (!empty($field)) {
+    $modx->controller->addLexiconTopic(\'core:chunk\');
+    $modx->controller->addLexiconTopic(\'core:snippet\');
+    $modx->controller->addLexiconTopic(\'tagelementplugin:default\');
+    $jsUrl = $modx->getOption(\'tagelementplugin_assets_url\', null, $modx->getOption(\'assets_url\') . \'components/tagelementplugin/\').\'js/mgr/\';
+    /** @var modManagerController */
+    $modx->controller->addLastJavascript($jsUrl.\'tagelementplugin.js\');
+    $modx->controller->addLastJavascript($jsUrl.\'dialogs.js\');
+    $usingFenon = $modx->getOption(\'pdotools_fenom_parser\',null,false) ? \'true\' : \'false\';
+    $_html = "<script type=\\"text/javascript\\">\\n";
+    $_html .= "\\tvar tagElPlugin = {};\\n";
+    $_html .= "\\ttagElPlugin.config = {\\n";
+    $_html .= "\\t\\tpanel : \'{$panel}\',\\n" ;
+    $_html .= "\\t\\tfield : \'{$field}\',\\n" ;
+    $_html .= "\\t\\tparent : [],\\n" ;
+    $_html .= "\\t\\tkeys : {\\n\\t\\t\\tquickEditor :". $modx->getOption(\'tagelementplugin_quick_editor_keys\',null,\'\') . ",\\n" ;
+    $_html .= "\\t\\t\\telementEditor :". $modx->getOption(\'tagelementplugin_element_editor_keys\',null,\'\') . ",\\n" ;
+    $_html .= "\\t\\t\\tchunkEditor :". $modx->getOption(\'tagelementplugin_chunk_editor_keys\',null,\'\') . ",\\n" ;
+    $_html .= "\\t\\t\\tquickChunkEditor :". $modx->getOption(\'tagelementplugin_quick_chunk_editor_keys\',null,\'\') . ",\\n" ;
+    $_html .= "\\t\\t\\telementProperties :". $modx->getOption(\'tagelementplugin_element_prop_keys\',null,\'\') . "\\n\\t\\t},\\n" ;
+    $_html .= "\\t\\tusing_fenom : {$usingFenon},\\n" ;
+    $_html .= "\\t\\teditor : \'".$modx->getOption(\'which_element_editor\')."\',\\n" ;
+    $_html .= "\\t\\tconnector_url : \'". $modx->getOption(\'tagelementplugin_assets_url\', null, $modx->getOption(\'assets_url\') . "components/tagelementplugin/")."connector.php\'\\n";
+    $_html .= "\\t};\\n";
+    $_html .= "</script>";
+    $modx->controller->addHtml($_html);
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'core/components/tagelementplugin/elements/plugins/plugin.tagelementplugin.php',
+    ),
   ),
   'policies' => 
   array (
@@ -853,11 +1092,11 @@ This option enables you to specify where the toolbar should be located. This opt
             'edit_plugin' => false,
             'edit_propertyset' => false,
             'edit_role' => false,
-            'edit_snippet' => true,
-            'edit_template' => true,
-            'edit_tv' => true,
+            'edit_snippet' => false,
+            'edit_template' => false,
+            'edit_tv' => false,
             'edit_user' => false,
-            'element_tree' => true,
+            'element_tree' => false,
             'empty_cache' => false,
             'error_log_erase' => false,
             'error_log_view' => false,
@@ -938,15 +1177,15 @@ This option enables you to specify where the toolbar should be located. This opt
             'resource_tree' => true,
             'save' => false,
             'save_category' => false,
-            'save_chunk' => true,
+            'save_chunk' => false,
             'save_context' => false,
             'save_document' => true,
-            'save_plugin' => true,
+            'save_plugin' => false,
             'save_propertyset' => false,
             'save_role' => false,
-            'save_snippet' => true,
-            'save_template' => true,
-            'save_tv' => true,
+            'save_snippet' => false,
+            'save_template' => false,
+            'save_tv' => false,
             'save_user' => false,
             'search' => true,
             'settings' => false,
@@ -970,19 +1209,19 @@ This option enables you to specify where the toolbar should be located. This opt
             'usergroup_view' => false,
             'view' => true,
             'view_category' => false,
-            'view_chunk' => true,
+            'view_chunk' => false,
             'view_context' => false,
             'view_document' => true,
             'view_element' => false,
             'view_eventlog' => false,
             'view_offline' => false,
-            'view_plugin' => true,
+            'view_plugin' => false,
             'view_propertyset' => false,
             'view_role' => false,
-            'view_snippet' => true,
+            'view_snippet' => false,
             'view_sysinfo' => false,
-            'view_template' => true,
-            'view_tv' => true,
+            'view_template' => false,
+            'view_tv' => false,
             'view_unpublished' => false,
             'view_user' => false,
             'workspaces' => false,

@@ -1,2 +1,900 @@
 [2017-01-12 12:49:55] (ERROR @ D:\domens\localhost\modx.test\core\model\modx\modcachemanager.class.php : 394) Error caching action map mgr/actions
 [2017-01-12 13:00:03] (ERROR @ D:\domens\localhost\modx.test\core\model\modx\modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/default
+[2017-01-12 23:34:55] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:35:19] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:41:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:41:48] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'unnamed.jpg', '11/', 'unnamed.jpg', 'image', '2017-01-12 23:41:48', 1, 0, '/assets/images/products/11/unnamed.jpg', '{\"size\":59229,\"width\":801,\"height\":329,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'd8e545ec0e2e8028bf30b11b12ee693484c43c81')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:41:48] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'unnamed.jpg', '11/120x90/', 'unnamed.jpg', 'image', '2017-01-12 23:41:48', 1, 0, '/assets/images/products/11/120x90/unnamed.jpg', '{\"size\":3156,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'dc8936c5bc42a198af105c9b296dbff56dacd4df')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:41:48] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'unnamed.jpg', '11/360x270/', 'unnamed.jpg', 'image', '2017-01-12 23:41:48', 1, 0, '/assets/images/products/11/360x270/unnamed.jpg', '{\"size\":20743,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '7950a5e81d39a1cef9ecf6c2e922a7afd608f86e')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:41:48] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:41:48] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:45:07] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:48:43] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:48:51] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:49:30] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'unnamed.jpg', '11/', 'unnamed.jpg', 'image', '2017-01-12 23:49:30', 1, 0, '/assets/images/products/11/unnamed.jpg', '{\"size\":59229,\"width\":801,\"height\":329,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'd8e545ec0e2e8028bf30b11b12ee693484c43c81')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:49:30] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'unnamed.jpg', '11/120x90/', 'unnamed.jpg', 'image', '2017-01-12 23:49:30', 1, 0, '/assets/images/products/11/120x90/unnamed.jpg', '{\"size\":3156,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'dc8936c5bc42a198af105c9b296dbff56dacd4df')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:49:30] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'unnamed.jpg', '11/360x270/', 'unnamed.jpg', 'image', '2017-01-12 23:49:30', 1, 0, '/assets/images/products/11/360x270/unnamed.jpg', '{\"size\":20743,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '7950a5e81d39a1cef9ecf6c2e922a7afd608f86e')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:49:30] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:49:30] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:51:44] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:51:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:52:13] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:52:17] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 2, 0, 'unnamed.jpg', '11/', 'd8e545ec0e2e8028bf30b11b12ee693484c43c81.jpg', 'image', '2017-01-12 23:52:17', 1, 0, '/assets/images/11/d8e545ec0e2e8028bf30b11b12ee693484c43c81.jpg', '{\"size\":59229,\"width\":801,\"height\":329,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'd8e545ec0e2e8028bf30b11b12ee693484c43c81')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:52:17] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 2, 'unnamed.jpg', '11/120x90/', 'd8e545ec0e2e8028bf30b11b12ee693484c43c81.png', 'image', '2017-01-12 23:52:17', 1, 0, '/assets/images/11/120x90/d8e545ec0e2e8028bf30b11b12ee693484c43c81.png', '{\"size\":19117,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/png\"}', '37af51a9ab0a06b43993a5c12b28f2e89b58d314')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:52:17] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:52:17] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:53:23] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:55:35] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (11).jpg', '11/', 'space-wallpaper-stugon.com-(11).jpg', 'image', '2017-01-12 23:55:35', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(11).jpg', '{\"size\":1096837,\"width\":1680,\"height\":1050,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '55059b9001bd3988263cd8b355f3a75402216213')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:55:35] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (11).jpg', '11/120x90/', 'space-wallpaper-stugon.com-(11).jpg', 'image', '2017-01-12 23:55:35', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(11).jpg', '{\"size\":3595,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '8832c9b130c9ef05615571214da5d34860ec578c')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:55:35] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (11).jpg', '11/360x270/', 'space-wallpaper-stugon.com-(11).jpg', 'image', '2017-01-12 23:55:35', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(11).jpg', '{\"size\":19904,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '9617c3751184883745437694cf6789903eaa5e4c')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:55:35] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:55:35] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:56:26] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:02] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:56] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (2).png', '11/', 'space-wallpaper-stugon.com-(2).png', 'image', '2017-01-12 23:59:56', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(2).png', '{\"size\":1943312,\"width\":1600,\"height\":1000,\"bits\":8,\"mime\":\"image\\/png\"}', 'a2a06312d72f85518fa996a35eae3b02b0df9798')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:56] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (2).png', '11/120x90/', 'space-wallpaper-stugon.com-(2).jpg', 'image', '2017-01-12 23:59:56', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(2).jpg', '{\"size\":3195,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'bf7d8807319bbcb4a15c7870b94482bf2056aca6')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:56] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (2).png', '11/360x270/', 'space-wallpaper-stugon.com-(2).jpg', 'image', '2017-01-12 23:59:56', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(2).jpg', '{\"size\":15617,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'ebcdb6e5d5b92e69b99ee9a76f2cffee9a934952')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:56] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (3).jpg', '11/', 'space-wallpaper-stugon.com-(3).jpg', 'image', '2017-01-12 23:59:57', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(3).jpg', '{\"size\":256716,\"width\":1913,\"height\":1080,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '80e96aa44e5754c3049d1195a1d60ebb9447e380')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (3).jpg', '11/120x90/', 'space-wallpaper-stugon.com-(3).jpg', 'image', '2017-01-12 23:59:57', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(3).jpg', '{\"size\":2597,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '97e39303a8cf7ed81fce9dc5031be355dcc9015a')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (3).jpg', '11/360x270/', 'space-wallpaper-stugon.com-(3).jpg', 'image', '2017-01-12 23:59:57', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(3).jpg', '{\"size\":16552,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'fa5c011b21ef75aa7ebbf0e971f90957cf183b26')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (4).jpg', '11/', 'space-wallpaper-stugon.com-(4).jpg', 'image', '2017-01-12 23:59:57', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(4).jpg', '{\"size\":1535035,\"width\":1920,\"height\":1080,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '413bab822570058d5203804a803e4e3fa636f2fe')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (4).jpg', '11/120x90/', 'space-wallpaper-stugon.com-(4).jpg', 'image', '2017-01-12 23:59:57', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(4).jpg', '{\"size\":3807,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '4ab35e826ea9a30d23c69560546fda1aee55fd27')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (4).jpg', '11/360x270/', 'space-wallpaper-stugon.com-(4).jpg', 'image', '2017-01-12 23:59:57', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(4).jpg', '{\"size\":20334,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'c1f1c22344998f5c2cdf55109def5a45f5662ab4')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:58] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (5).jpg', '11/', 'space-wallpaper-stugon.com-(5).jpg', 'image', '2017-01-12 23:59:58', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(5).jpg', '{\"size\":637252,\"width\":1728,\"height\":1080,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '2c8987267effdde9441256acebe01ab6fb5ec507')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:58] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (5).jpg', '11/120x90/', 'space-wallpaper-stugon.com-(5).jpg', 'image', '2017-01-12 23:59:58', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(5).jpg', '{\"size\":3615,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'f6dfab5dee5763c104e26b91ceb82ef8e2baf539')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:58] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (5).jpg', '11/360x270/', 'space-wallpaper-stugon.com-(5).jpg', 'image', '2017-01-12 23:59:58', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(5).jpg', '{\"size\":28559,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '8c7e74a96b1283409c36b61a46944295832e7205')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:58] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:58] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (12).jpg', '11/', 'space-wallpaper-stugon.com-(12).jpg', 'image', '2017-01-12 23:59:58', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(12).jpg', '{\"size\":239693,\"width\":1600,\"height\":1000,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'd617ec25732e0e7deb9025d8eb5cba9638202a38')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:58] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (12).jpg', '11/120x90/', 'space-wallpaper-stugon.com-(12).jpg', 'image', '2017-01-12 23:59:58', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(12).jpg', '{\"size\":3595,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '1237a19b6306f1e39cfd9c86b7353aa3235c7c12')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:58] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (12).jpg', '11/360x270/', 'space-wallpaper-stugon.com-(12).jpg', 'image', '2017-01-12 23:59:58', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(12).jpg', '{\"size\":19364,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'f40eb45759632ed5226b7061491cc9820924815f')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:58] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:59] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (13).jpg', '11/', 'space-wallpaper-stugon.com-(13).jpg', 'image', '2017-01-12 23:59:59', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(13).jpg', '{\"size\":310799,\"width\":1913,\"height\":1080,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '7fb3dfd42d77466eb064747dd9d2a625899027d0')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:59] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (13).jpg', '11/120x90/', 'space-wallpaper-stugon.com-(13).jpg', 'image', '2017-01-12 23:59:59', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(13).jpg', '{\"size\":3739,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '32993b4755ef46ea13c6630476a76ab81ae60ae1')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:59] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (13).jpg', '11/360x270/', 'space-wallpaper-stugon.com-(13).jpg', 'image', '2017-01-12 23:59:59', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(13).jpg', '{\"size\":20578,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '4a047d80d4e5d090dae6eb6900c9212babf50dc9')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-12 23:59:59] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (14).jpg', '11/', 'space-wallpaper-stugon.com-(14).jpg', 'image', '2017-01-13 00:00:00', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(14).jpg', '{\"size\":446600,\"width\":1913,\"height\":1080,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '3f89a4f9b8a48bbcf6ac038c049acd7e95b7674b')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (14).jpg', '11/120x90/', 'space-wallpaper-stugon.com-(14).jpg', 'image', '2017-01-13 00:00:00', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(14).jpg', '{\"size\":3829,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'cfd1af0651b702639b0f9bd61f7926ee4205b9c4')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (14).jpg', '11/360x270/', 'space-wallpaper-stugon.com-(14).jpg', 'image', '2017-01-13 00:00:00', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(14).jpg', '{\"size\":23309,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'cd58e6d8db1d6147bc77de92d7246733bf76af70')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 0, 'space-wallpaper-stugon.com (15).jpg', '11/', 'space-wallpaper-stugon.com-(15).jpg', 'image', '2017-01-13 00:00:00', 1, 0, '/assets/images/products/11/space-wallpaper-stugon.com-(15).jpg', '{\"size\":291991,\"width\":1913,\"height\":1080,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '35b6a874ee4b41e90a08f8dd459ece6d0f9d097a')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (15).jpg', '11/120x90/', 'space-wallpaper-stugon.com-(15).jpg', 'image', '2017-01-13 00:00:00', 1, 0, '/assets/images/products/11/120x90/space-wallpaper-stugon.com-(15).jpg', '{\"size\":3162,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'b367b4b1d18a0efa6321dddf5fafd4fd757c1de5')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (11, 3, 'space-wallpaper-stugon.com (15).jpg', '11/360x270/', 'space-wallpaper-stugon.com-(15).jpg', 'image', '2017-01-13 00:00:00', 1, 0, '/assets/images/products/11/360x270/space-wallpaper-stugon.com-(15).jpg', '{\"size\":17445,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'f2803ba36425c6e0da26ffe4a8ad346b2b075c94')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:00:00] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:01:02] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:03:27] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-13 00:05:05] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:05:05] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:05:05] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:05:05] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:09:48] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:09:48] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:09:48] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:09:48] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:10:03] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:10:03] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:10:03] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:10:03] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:10:27] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:10:27] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:10:27] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:10:27] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:12:23] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:12:23] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:12:23] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:12:23] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:13:01] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:13:01] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:13:01] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:13:01] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:14:23] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:14:23] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:14:23] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:14:23] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:15:05] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:15:05] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 00:15:05] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 00:15:05] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 10:53:21] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 10:53:21] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 10:53:21] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 10:53:21] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 11:55:43] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 11:55:43] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 11:55:43] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 11:55:43] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 15:07:53] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 15:07:53] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-13 15:07:53] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-13 15:07:53] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-14 11:35:31] (ERROR @ D:\domens\localhost\modx.test\core\model\modx\modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2017-01-14 11:44:15] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-14 11:44:15] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-14 11:44:15] (ERROR @ D:\domens\localhost\modx.test\core\components\pdotools\model\pdotools\pdofetch.class.php : 171) [pdoTools] Error 42S02: Table 'modx_test.modx_ms2_product_files' doesn't exist
+[2017-01-14 11:44:15] (ERROR @ D:\domens\localhost\modx.test\core\cache\includes\elements\modsnippet\58.include.cache.php : 70) PHP warning: Invalid argument supplied for foreach()
+[2017-01-14 12:53:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:00:37] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:01:08] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\orders\getlist.class.php : 83) PHP warning: Invalid argument supplied for foreach()
+[2017-01-14 13:02:18] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:02:58] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:03:39] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:03:55] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:04:32] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:04:48] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:05:18] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:06:10] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:06:34] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:06:50] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:06:56] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:07:24] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:07:36] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:08:20] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:08:29] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:13:39] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:14:05] (ERROR @ D:\domens\localhost\modx.test\core\components\minishop2\processors\mgr\settings\option\gettypes.class.php : 46) PHP warning: Declaration of msOptionGetTypesProcessor::prepareRow(array $object) should be compatible with modObjectGetListProcessor::prepareRow(xPDOObject $object)
+[2017-01-14 13:15:37] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:16:14] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:16:19] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:19:55] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:14] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:38] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 0, 'space-wallpaper-stugon.com (14).jpg', '19/', 'space-wallpaper-stugon.com-(14).jpg', 'image', '2017-01-14 13:20:38', 1, 0, '/assets/images/products/19/space-wallpaper-stugon.com-(14).jpg', '{\"size\":446600,\"width\":1913,\"height\":1080,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '3f89a4f9b8a48bbcf6ac038c049acd7e95b7674b')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:38] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 'space-wallpaper-stugon.com (14).jpg', '19/120x90/', 'space-wallpaper-stugon.com-(14).jpg', 'image', '2017-01-14 13:20:38', 1, 0, '/assets/images/products/19/120x90/space-wallpaper-stugon.com-(14).jpg', '{\"size\":3829,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'cfd1af0651b702639b0f9bd61f7926ee4205b9c4')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:38] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 'space-wallpaper-stugon.com (14).jpg', '19/360x270/', 'space-wallpaper-stugon.com-(14).jpg', 'image', '2017-01-14 13:20:38', 1, 0, '/assets/images/products/19/360x270/space-wallpaper-stugon.com-(14).jpg', '{\"size\":23309,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'cd58e6d8db1d6147bc77de92d7246733bf76af70')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:38] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:38] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 0, 'space-wallpaper-stugon.com (19).jpg', '19/', 'space-wallpaper-stugon.com-(19).jpg', 'image', '2017-01-14 13:20:57', 1, 0, '/assets/images/products/19/space-wallpaper-stugon.com-(19).jpg', '{\"size\":75549,\"width\":1728,\"height\":1080,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'd2af2ceddc7ec1db45dae5a4bb3654106ea62037')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 'space-wallpaper-stugon.com (19).jpg', '19/120x90/', 'space-wallpaper-stugon.com-(19).jpg', 'image', '2017-01-14 13:20:57', 1, 0, '/assets/images/products/19/120x90/space-wallpaper-stugon.com-(19).jpg', '{\"size\":1683,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '929a0a251b1613967a41e59275c950d78df76224')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 'space-wallpaper-stugon.com (19).jpg', '19/360x270/', 'space-wallpaper-stugon.com-(19).jpg', 'image', '2017-01-14 13:20:57', 1, 0, '/assets/images/products/19/360x270/space-wallpaper-stugon.com-(19).jpg', '{\"size\":6072,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '2893d8085e26609dd21dbc93d3fbe117c01d5613')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:20:57] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:21:34] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:23:24] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:23:30] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 13:58:39] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 14:01:44] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `parent`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 0, 'bnr.jpg', '19/', 'bnr.jpg', 'image', '2017-01-14 14:01:44', 1, 0, '/assets/images/products/19/bnr.jpg', '{\"size\":222831,\"width\":1920,\"height\":683,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '23db4faf3707105cc0ecee07fa051a142698221d')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 14:01:44] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 'bnr.jpg', '19/120x90/', 'bnr.jpg', 'image', '2017-01-14 14:01:44', 1, 0, '/assets/images/products/19/120x90/bnr.jpg', '{\"size\":3026,\"width\":120,\"height\":90,\"bits\":8,\"mime\":\"image\\/jpeg\"}', '169d8f7de069c44f38321a30c8f650b8796eca7c')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 14:01:44] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 1452) Error 42S02 executing statement:
+INSERT INTO `modx_ms2_product_files` (`product_id`, `source`, `name`, `path`, `file`, `type`, `createdon`, `createdby`, `rank`, `url`, `properties`, `hash`) VALUES (19, 3, 'bnr.jpg', '19/360x270/', 'bnr.jpg', 'image', '2017-01-14 14:01:44', 1, 0, '/assets/images/products/19/360x270/bnr.jpg', '{\"size\":13532,\"width\":360,\"height\":270,\"bits\":8,\"mime\":\"image\\/jpeg\"}', 'd6f9f1f0bcb2a9fae8d16f09fb802d39b0d2e9dc')
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 14:01:44] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 14:01:44] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42S02 executing statement: 
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'modx_test.modx_ms2_product_files' doesn't exist
+)
+
+[2017-01-14 14:04:06] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1055
+    [2] => Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'modx_test.FormItForm.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+)
+
+[2017-01-14 14:04:11] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1055
+    [2] => Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'modx_test.FormItForm.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+)
+
+[2017-01-14 14:21:10] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 413) PHP warning: Illegal string offset 'name'
+[2017-01-14 14:21:10] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 413) PHP warning: Illegal string offset 'email'
+[2017-01-14 14:21:10] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 413) PHP warning: Illegal string offset 'message'
+[2017-01-14 14:21:10] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 413) PHP warning: Illegal string offset 'pageId'
+[2017-01-14 14:21:10] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 416) PHP warning: implode(): Invalid arguments passed
+[2017-01-14 14:26:43] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 413) PHP warning: Illegal string offset 'name'
+[2017-01-14 14:26:43] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 413) PHP warning: Illegal string offset 'email'
+[2017-01-14 14:26:43] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 413) PHP warning: Illegal string offset 'message'
+[2017-01-14 14:26:43] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 413) PHP warning: Illegal string offset 'pageId'
+[2017-01-14 14:26:43] (ERROR @ D:\domens\localhost\modx.test\core\components\formit\model\formit\fihooks.class.php : 416) PHP warning: implode(): Invalid arguments passed
+[2017-01-14 14:53:48] (ERROR @ D:\domens\localhost\modx.test\core\model\modx\modcachemanager.class.php : 344) Error caching lexicon topic lexicon/ru/core/resource
+[2017-01-14 15:50:23] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1055
+    [2] => Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'modx_test.FormItForm.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+)
+
+[2017-01-14 15:50:28] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1055
+    [2] => Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'modx_test.FormItForm.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+)
+
+[2017-01-14 15:51:04] (ERROR @ D:\domens\localhost\modx.test\core\xpdo\om\xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1055
+    [2] => Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'modx_test.FormItForm.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+)
+

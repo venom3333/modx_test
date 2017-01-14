@@ -1,0 +1,28 @@
+//colors
+$color_oracle_10_approx: rgba(42, 125, 110, .1);
+$color_oracle_approx: rgba(42, 125, 110, 1);
+$color_transparent: rgba(0, 0, 0, 0);
+
+.rsidebar {
+  background: $color_oracle_10_approx;
+  padding: 0;
+  .well {
+      background-color: $color_transparent;
+  }
+  
+  a {
+    padding: 0 7px;
+    text-decoration: none;
+    color: $black;
+  }
+  ul {
+       padding: 0;
+       list-style-type: none;
+  }
+  li {
+    &:hover {
+      background: $color_oracle_approx;
+      color: $white;
+    }
+  }
+}
